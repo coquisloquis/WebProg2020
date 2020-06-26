@@ -1,0 +1,44 @@
+
+sudo apt-get install git
+
+www.atom.io -> downoad deb package
+
+edX
+
+jorge@gmail
+usr: BisZumMond
+pwd: sbE63700
+
+GitHub
+
+user: coquisloquis
+email: jmercado@cern.ch
+pwd: sbE637sbE637
+
+git clone <url>
+[create local copy]
+
+git add <filename>
+
+git commit -m "message"
+
+git status
+
+git push
+[upload to github]
+
+git pull
+[download the latest revision of a github repo]
+
+git log
+[show commit history]
+
+git reset --hard <commit hash>
+[reset to a specific commit]
+
+git reset --hard origin/master
+[reset to the github version when the clone was done]
+
+git reflog
+[summary of commits]
+

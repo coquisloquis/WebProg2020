@@ -1,0 +1,116 @@
+HTML [Hypertext Markup Language]
+
+<!DOCTYPE html>
+
+HTAML TAGS:
+
+<html> 
+	<head>
+		<title>My Title Page</title>
+	</head>
+	<body>
+		Hello, World!
+	</body>
+</html>
+
+** TAGS INSIDE <BODY>
+
+<ul> [unordered list]
+	<li>One item</li> [list item(s)]
+	<li>Another item</li>
+</ul>
+
+<ol> [ordered list]
+	<li>First item</li>
+	<li>Second item</li>
+</ol>
+
+* INSERTING IMAGES (WITHIN BODY)
+
+<img src="cat.jpeg">
+<img src="cat.jpeg" height="200", width="300">
+<img src="cat.jpeg" height="200">
+<img src="cat.jpeg" width="50%">
+
+* TABLES
+
+<table>
+	<tr> [table row]
+		<th>Name</th> [table header]
+		<th>Last name</th>
+		<th>Occupation</th>
+	</tr>
+	<tr> [table row]
+		<td>Jorge</td> [table data]
+		<td>Mercado</td>
+		<td>Scientist</td>
+	</tr>
+
+	<tr> [table row]
+		<td>Erica</td> [table data]
+		<td>Mercado</td>
+		<td>Engineer</td>
+	</tr>
+</table>
+
+* FORMS
+
+<form>
+	<input type="text" placeholder="Full name" name="name">
+	<button>Submit!</button>
+</form>
+
+================================================================
+
+CSS [Cascading Style Sheets]
+
+<h1 style="color:blue;text-align=center;">My Header</h1> [style attribute for header 1]
+CSS properties: color, text-align, etc.
+
+Moving the styling away from the <body>
+
+<head>
+	<style>
+		h1 {
+		    color: blue;
+		    text-align: center;
+		   }
+	</style>
+</head>
+
+---------------------------------------
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+---------------------------------------
+
+CSS properties examples:
+
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 50%;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+th {
+	background-color: lightgray;
+}
+
+---------------------------------------
+
+div's and span's
+
+id's and classes [ids must be unique whiles classes does not necessarily]
+#        .
+
+
+
+
