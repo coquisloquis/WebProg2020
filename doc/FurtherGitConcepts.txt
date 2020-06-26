@@ -1,0 +1,30 @@
+=============================================
+BRANCHING
+
+git branch
+
+git checkout [branch]
+
+git merge
+
+
+=============================================
+REMOTES
+
+git fetch 
+git merge origin/master [origin is the online at github]
+
+[is equivalent to:]
+
+git pull 
+
+
+=============================================
+FORKS
+
+[pull requests]
+
+
+
+
+
